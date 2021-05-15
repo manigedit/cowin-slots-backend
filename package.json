@@ -1,0 +1,26 @@
+{
+  "name": "cowin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "versiono.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node versiono.js",
+    "start_api": "node api.js"
+  },
+  "author": "1manish2222@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.8",
+    "pm2": "^4.5.6",
+    "qrcode-terminal": "^0.12.0",
+    "redis": "^3.1.2",
+    "simple-node-logger": "^18.12.24",
+    "whatsapp-web.js": "^1.12.6"
+  },
+  "devDependencies": {}
+}
