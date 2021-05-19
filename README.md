@@ -2,14 +2,30 @@
 
 This service is is the backend infra of https://github.com/manigedit/cowin-portal
 
-<font size="6"> Local Setup: </font>
+---
 
-1. Make sure you have node >v10 , mongodb and redis installed (Check public articles on their installation steps)
+### Local Setup:
 
-2. $ npm install
+- Make sure you have node version >10.0.0 and have mongodb and redis installed and running. (Check public articles on their installation steps)
 
-3. $ pm2 run start
+- Install required dependencies
 
-4. $ pm2 run start_api
+```bash
+$ npm install
+```
 
-Contributors are warmly welcomed. And using this tool to spam people will lead to the tool being blocked. Please please avoid the same.
+- Start the server:
+
+```bash
+$ npm run start
+```
+
+- Start the api:
+
+```bash
+$ npm run start_api
+```
+
+_Contributors are warmly welcomed_
+
+> :warning: **Using this tool to spam people will lead to the tool being blocked.**
